@@ -1,0 +1,8 @@
+@media (max-width: 1140px){
+    .container {
+        width: 1000px;
+    }
+    .img-youtube {
+        margin-left: -40px;
+    }
+}

@@ -42,7 +42,25 @@ a {
     background-color: #00BAFC;
     border-radius: 5px;
     font-weight: 500;
-
+    transition: background-color, color 0.5s ease;
+}
+.list-link-1:hover {
+    background-color: #fff;
+    color: #00BAFC;
+}
+.tepadan-2-link-1 {
+    transition: background-color, color 0.5s ease;
+}
+.tepadan-3-link {
+    transition: background-color, color 0.5s ease;
+}
+.tepadan-3-link:hover {
+    background-color: #fff;
+    color: #00BAFC;
+}
+.tepadan-2-link-1:hover {
+    background-color: #fff;
+    color: #00BAFC;
 }
 .tepa-orta {
     display: flex;
@@ -71,6 +89,12 @@ a {
     border-radius: 5px;
     color: #fff;
     margin-left: 20px;
+    transition: background-color, color 0.5s ease;
+}
+.tepa-orta-1 a:hover {
+    background-color: #fff;
+    color: #00BAFC;
+
 }
 .tepa-orta img {
     margin-right: 0px;
@@ -97,6 +121,7 @@ a {
     text-align: center;
     justify-content: center;
 }
+
 .tepadan-2-2 {
     /* width: 200px; */
     margin: 50px 80px;
@@ -192,10 +217,13 @@ a {
     margin-left: 220px;
     color: #fff;
 } 
+.joy-tashla {
+    padding: 20px;
+}
 form {
     margin-top: 50px;
     width: 300px;
-    margin-left: 400px;
+    margin-left: 420px;
     background-color: #fff;
     border-radius: 5px;
 }
@@ -224,11 +252,13 @@ form button {
 /* section tugadi  */
 .about-qism {
     background: #191919;
+    padding-top: 50px;
 }
 .about-qism-1 {
     display: flex;
 }
 .about-qism-2 {
+    margin-left: 20px;
     padding: 40px;
     color: #fff;
     width: 300px;
@@ -237,9 +267,29 @@ form button {
     margin-bottom: 20px;
 }
 .about-qism-3 {
+    margin-left: 20px;
     padding: 40px;
     color: #fff;
 }
 .about-qism-3 a {
+    color: #fff;
+
+}
+.about-qism-3 h4 {
+    font-size: 20px;
+}
+.fake li {
+    margin-top: 10px;
+}
+.about-qism-4 {
+    margin-left: 40px;
+    padding: 40px;
+    color: #fff;
+}
+.about-qism-6 li {
+    margin-top: 10px;
+}
+.about-qism-6 a {
+    padding-top: -20px;
     color: #fff;
 }
